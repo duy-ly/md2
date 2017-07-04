@@ -108,6 +108,7 @@ export class Md2Dialog implements OnDestroy {
   @ViewChild(Md2DialogPortal) _portal: Md2DialogPortal;
 
   @Input('title') dialogTitle: string;
+  @Input('class') dialogClass: string;
 
   ngOnDestroy() { this.destroyPanel(); }
 
